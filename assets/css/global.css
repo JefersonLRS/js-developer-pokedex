@@ -1,24 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
 * {
     font-family: 'Roboto', sans-serif;
+    padding: 0;
     box-sizing: border-box;
 }
 
 body {
-    background-color: #f6f8fc;
+    background-image: url(https://th.bing.com/th/id/R.8b894d3013a60a29ae3022930eb7c4ae?rik=%2bz%2b8OG0Rn8fWyg&riu=http%3a%2f%2fimg2.wikia.nocookie.net%2f__cb20100922034802%2fpokemon%2fimages%2f4%2f43%2fVermilion_City_HGSS.png&ehk=EyXozixxci%2bB9Mx8OaqxuvChXZ3jbAL6jW0aEumtkCU%3d&risl=&pid=ImgRaw&r=0)
 }
 
 .content {
-    width: 100vw;
     height: 100vh;
+    width: 100vw;
     padding: 1rem;
-    background-color: #fff;
+    background-color: white;
+    margin: auto;
 }
 
 @media screen and (min-width: 992px) {
-    .content {
+    .content{
         max-width: 992px;
         height: auto;
         margin: 1rem auto;
         border-radius: 1rem;
     }
-}
+  }
